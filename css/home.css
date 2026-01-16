@@ -1,0 +1,646 @@
+/* ===== FONTE Kalnia ===== */
+@font-face {
+    font-family: 'Kalnia';
+    src: url('../fonts/Kalnia-Medium.woff') format('woff');
+    font-weight: 500;
+    /* MEDIUM = 500 */
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*----DESKTOP----*/
+
+@media (min-width: 992px) {
+    .secao-1 {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fundo-1 {
+        position: absolute;
+        object-fit: cover;
+        height: 100vh;
+        width: 100%;
+        z-index: -1;
+        background-image: url(/images/secao-1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .titulo-hero {
+        font-family: 'Kalnia';
+        color: white;
+        font-weight: 500;
+        font-size: 60px;
+        text-align: center;
+        line-height: 60px;
+        position: relative;
+        z-index: 1;
+        will-change: transform, opacity, filter;
+    }
+
+    .description {
+        color: #FFCAD7;
+        font-family: 'Montserrat', sans-serif;
+        width: 26%;
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 25px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .cta-button {
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        padding: 20px 40px;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 80px;
+        background: linear-gradient(150deg,
+                #3737B3,
+                #000080,
+                #3737B3);
+        background-size: 400% 400%;
+        animation: degrade 8s ease-in-out infinite;
+    }
+
+    @keyframes degrade {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+
+    .cta-button span {
+        width: 24px;
+        height: 24px;
+        animation: flutuar 3s ease-in-out infinite;
+    }
+
+    @keyframes flutuar {
+        0% {
+            transform: translateY(3px);
+        }
+
+        50% {
+            transform: translateY(-3px);
+        }
+
+        100% {
+            transform: translateY(3px);
+        }
+    }
+
+    .secao-2 {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        background-image: url(/images/secao-2-principal.png);
+        background-size: cover;
+        padding: 810px 0px 80px 0px;
+        margin-top: -810px;
+    }
+
+
+    .botton {
+        position: relative;
+        width: 879px;
+        height: 390px;
+        border-radius: 20px;
+        transition: transform 0.45s ease;
+        /* Apenas transform */
+        will-change: transform;
+        text-decoration: none;
+    }
+
+    .botton {
+        position: relative;
+        width: 879px;
+        height: 390px;
+        border-radius: 20px;
+        transition: transform 0.45s ease;
+        /* Apenas transform */
+        will-change: transform;
+        display: flex;
+
+    }
+
+    .botton {
+        position: relative;
+        width: 879px;
+        height: 390px;
+        border-radius: 20px;
+        transition: transform 0.45s ease;
+        /* Apenas transform */
+        will-change: transform;
+    }
+
+    .botton-bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        z-index: 0;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .botton-content {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        padding-left: 57px;
+    }
+
+    .botton-content-2 {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-end;
+        height: 100%;
+        padding-left: 100px;
+    }
+
+    .botton-content-2 .para-botton {
+        width: 60%;
+    }
+
+    .wpp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .titulo-wpp {
+        font-size: 56px;
+        color: #ffffff;
+        font-family: 'Kalnia';
+        font-weight: 400;
+        margin-top: 40px;
+    }
+
+    .para-wpp {
+        margin-top: 10px;
+        width: 34%;
+        font-size: 25px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: #FFA8BE;
+        line-height: 35px;
+    }
+
+    .wpp-button {
+        margin-top: 30px;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        padding: 25px 60px;
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 80px;
+        background: linear-gradient(150deg,
+                #c7254d,
+                #8F0D2E,
+                #c7254d);
+        background-size: 400% 400%;
+        animation: degrade 8s ease-in-out infinite;
+    }
+
+    @keyframes degrade {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    .wpp-button span {
+        width: 23px;
+        height: 23px;
+    }
+
+    .botton:nth-child(1) .botton-bg {
+        background-image: url(/images/botton-1.png);
+    }
+
+    .botton:nth-child(2) .botton-bg {
+        background-image: url(/images/botton-2.png);
+    }
+
+    .botton:nth-child(3) .botton-bg {
+        background-image: url(/images/botton-3.png);
+    }
+
+    /* Efeito de escala no hover - controlado por JS para altura */
+    .botton:hover {
+        transform: scale(1.03);
+    }
+
+    .titulo-botton {
+        font-family: 'Kalnia';
+        font-size: 40px;
+        line-height: 42px;
+        color: white;
+        font-weight: 500;
+        width: 60%;
+    }
+
+    .para-botton {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        line-height: 25px;
+        color: #A5AFC8;
+        font-weight: 300;
+        margin-top: 5px;
+        width: 58%;
+    }
+
+    .rodape {
+        height: 35px;
+        width: 100%;
+        margin-top: -35px;
+        border-top: #8F082A solid 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFCAD7;
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+    }
+}
+
+
+/*----MOBILE----*/
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .secao-1 {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px;
+    }
+
+    .fundo-1 {
+        position: absolute;
+        object-fit: cover;
+        height: 100vh;
+        width: 100%;
+        z-index: -1;
+        background-image: url(/images/secao-1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .titulo-hero {
+        font-family: 'Kalnia';
+        color: white;
+        font-weight: 500;
+        font-size: 45px;
+        text-align: center;
+        line-height: 45px;
+        position: relative;
+        z-index: 1;
+        will-change: transform, opacity, filter;
+        width: 100%;
+    }
+
+    .description {
+        color: #FFCAD7;
+        font-family: 'Montserrat', sans-serif;
+        width: 98%;
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 27px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .cta-button {
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        padding: 20px 40px;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 150px;
+        background: linear-gradient(150deg,
+                #3737B3,
+                #000080,
+                #3737B3);
+        background-size: 400% 400%;
+        animation: degrade 8s ease-in-out infinite;
+    }
+
+    @keyframes degrade {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+
+    .cta-button span {
+        width: 24px;
+        height: 24px;
+        animation: flutuar 3s ease-in-out infinite;
+    }
+
+    @keyframes flutuar {
+        0% {
+            transform: translateY(3px);
+        }
+
+        50% {
+            transform: translateY(-3px);
+        }
+
+        100% {
+            transform: translateY(3px);
+        }
+    }
+
+    .secao-2 {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        background-image: url(/images/secao-2-principal.png);
+        background-size: cover;
+        padding: 810px 20px 80px 20px;
+        margin-top: -850px;
+    }
+
+
+    .botton {
+        position: relative;
+        width: 400px;
+        height: 470px;
+        border-radius: 20px;
+        transition: transform 0.45s ease;
+        /* Apenas transform */
+        will-change: transform;
+        text-decoration: none;
+    }
+
+
+    .botton-bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        z-index: 0;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .botton-content {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        height: 100%;
+        padding-left: 20px;
+        padding-bottom: 40px;
+        padding-right: 20px;
+    }
+
+    .botton-content-2 {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        height: 100%;
+        padding-left: 20px;
+        padding-bottom: 40px;
+        padding-right: 20px;
+    }
+
+    .wpp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .titulo-wpp {
+        font-size: 40px;
+        color: #ffffff;
+        font-family: 'Kalnia';
+        font-weight: 400;
+        margin-top: 40px;
+    }
+
+    .para-wpp {
+        margin-top: 10px;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: #FFA8BE;
+        line-height: 28px;
+    }
+
+    .wpp-button {
+        margin-top: 30px;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        padding: 25px 0px;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 30px;
+        background: linear-gradient(150deg,
+                #c7254d,
+                #8F0D2E,
+                #c7254d);
+        background-size: 400% 400%;
+        animation: degrade 8s ease-in-out infinite;
+    }
+
+    @keyframes degrade {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    .wpp-button span {
+        width: 18px;
+        height: 21px;
+    }
+
+    .botton:nth-child(1) .botton-bg {
+        background-image: url(/images/botton-1-m.png);
+    }
+
+    .botton:nth-child(2) .botton-bg {
+        background-image: url(/images/botton-2-m.png);
+    }
+
+    .botton:nth-child(3) .botton-bg {
+        background-image: url(/images/botton-3-m.png);
+    }
+
+    /* Efeito de escala no hover - controlado por JS para altura */
+    .botton:hover {
+        transform: scale(1.03);
+    }
+
+    .titulo-botton {
+        font-family: 'Kalnia';
+        font-size: 30px;
+        line-height: 35px;
+        color: white;
+        font-weight: 500;
+        width: 100%;
+    }
+
+    .para-botton {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        line-height: 23px;
+        color: #A5AFC8;
+        font-weight: 300;
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    .rodape {
+        height: 35px;
+        width: 100%;
+        margin-top: -35px;
+        border-top: #8F082A solid 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFCAD7;
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+
+    /* FORÇA hardware acceleration para evitar bugs */
+    .botton {
+        transform: translateZ(0);
+        -webkit-transform: translateZ(0);
+        backface-visibility: hidden;
+        perspective: 1000px;
+    }
+
+    .botton.aberto {
+        z-index: 100;
+        /* Fica acima de tudo */
+        transform: translateZ(0) scale(1.01);
+    }
+
+    .pelicula-overlay {
+        position: absolute !important;
+        transform: translateZ(0);
+        -webkit-transform: translateZ(0);
+        will-change: opacity;
+    }
+
+    /* Suaviza fechamento no scroll */
+    .botton-extra {
+        transition: height 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+            opacity 0.3s ease,
+            transform 0.3s ease;
+    }
+}
+
+.blur {
+    will-change: transform, opacity, filter;
+}
