@@ -36,6 +36,10 @@ body {
         height: 100vh;
         width: 100%;
         z-index: -1;
+        background-image: url(/images/botton-section-2.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .titulo-hero {
