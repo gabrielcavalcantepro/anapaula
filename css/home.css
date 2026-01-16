@@ -8,6 +8,10 @@
     font-display: swap;
 }
 
+body {
+    background-color: #800020;
+}
+
 * {
     margin: 0;
     padding: 0;
