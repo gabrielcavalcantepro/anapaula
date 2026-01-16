@@ -555,8 +555,9 @@
     }
     
     .wpp-button span {
-        width: 18px;
-        height: 21px;
+        width: 14px;
+        height: 20px;
+        scale: 0.7;
     }
 
     .botton:nth-child(1) .botton-bg {
