@@ -148,29 +148,9 @@ body {
         /* Apenas transform */
         will-change: transform;
         text-decoration: none;
+        overflow: hidden;
     }
 
-    .botton {
-        position: relative;
-        width: 879px;
-        height: 390px;
-        border-radius: 20px;
-        transition: transform 0.45s ease;
-        /* Apenas transform */
-        will-change: transform;
-        display: flex;
-
-    }
-
-    .botton {
-        position: relative;
-        width: 879px;
-        height: 390px;
-        border-radius: 20px;
-        transition: transform 0.45s ease;
-        /* Apenas transform */
-        will-change: transform;
-    }
 
     .botton-bg {
         position: absolute;
@@ -181,6 +161,11 @@ body {
         z-index: 0;
         border-radius: 20px;
         overflow: hidden;
+        transition: transform 0.45s ease;
+    }
+
+    .botton:hover .botton-bg {
+        transform: scale(1.03);
     }
 
     .botton-content {
@@ -287,10 +272,6 @@ body {
         background-image: url(/images/botton-3.png);
     }
 
-    /* Efeito de escala no hover - controlado por JS para altura */
-    .botton:hover {
-        transform: scale(1.03);
-    }
 
     .titulo-botton {
         font-family: 'Kalnia';
@@ -369,10 +350,10 @@ body {
         color: #FFCAD7;
         font-family: 'Montserrat', sans-serif;
         width: 98%;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 300;
         text-align: center;
-        line-height: 27px;
+        line-height: 23px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -450,14 +431,14 @@ body {
 
 
     .botton {
-        position: relative;
-        width: 400px;
+        width: 100%;
         height: 470px;
         border-radius: 20px;
         transition: transform 0.45s ease;
         /* Apenas transform */
         will-change: transform;
         text-decoration: none;
+        overflow: hidden;
     }
 
 
@@ -470,6 +451,11 @@ body {
         z-index: 0;
         border-radius: 20px;
         overflow: hidden;
+        transition: transform 0.45s ease;
+    }
+
+    .botton:hover .botton-bg {
+        transform: scale(1.03);
     }
 
     .botton-content {
@@ -504,7 +490,7 @@ body {
     }
 
     .titulo-wpp {
-        font-size: 40px;
+        font-size: 35px;
         color: #ffffff;
         font-family: 'Kalnia';
         font-weight: 400;
@@ -514,11 +500,11 @@ body {
     .para-wpp {
         margin-top: 10px;
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         color: #FFA8BE;
-        line-height: 28px;
+        line-height: 23px;
     }
 
     .wpp-button {
@@ -576,15 +562,10 @@ body {
         background-image: url(/images/botton-3-m.png);
     }
 
-    /* Efeito de escala no hover - controlado por JS para altura */
-    .botton:hover {
-        transform: scale(1.03);
-    }
-
     .titulo-botton {
         font-family: 'Kalnia';
-        font-size: 30px;
-        line-height: 35px;
+        font-size: 27px;
+        line-height: 32px;
         color: white;
         font-weight: 500;
         width: 100%;
@@ -596,7 +577,7 @@ body {
         line-height: 23px;
         color: #A5AFC8;
         font-weight: 300;
-        margin-top: 5px;
+        margin-top: 10px;
         width: 100%;
     }
 
