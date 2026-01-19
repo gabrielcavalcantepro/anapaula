@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: #000080;
+    background-color: #0B2D48;
 }
 
 /*----DESKTOP----*/
@@ -82,9 +82,9 @@ body {
         gap: 10px;
         margin-bottom: 80px;
         background: linear-gradient(150deg,
-                #3737B3,
-                #000080,
-                #3737B3);
+                #DAA521,
+                #A77908,
+                #DAA521);
         background-size: 400% 400%;
         animation: degrade 8s ease-in-out infinite;
     }
@@ -161,7 +161,7 @@ body {
     .icon-box {
         width: 40px;
         height: 40px;
-        background-color: #1616A1;
+        background-color: #143D5E;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -171,7 +171,7 @@ body {
         .iten-list {
         width: 240px;
         height: 200px;
-        border: #1616A1 solid 1px;
+        border: #143D5E solid 1px;
         border-radius: 10px;
         padding: 20px 20px;
         font-size: 18px;
@@ -184,7 +184,7 @@ body {
     }
 
     .iten-list:hover {
-        background-color: #1616A1;
+        background-color: #143D5E;
         transition: all 0.5s ease;
     }
     
@@ -205,9 +205,9 @@ body {
         border-radius: 50px;
         gap: 10px;
         background: linear-gradient(150deg,
-                #4141f1,
-                #1616A1,
-                #4141f1);
+                #DAA521,
+                #A77908,
+                #DAA521);
         background-size: 400% 400%;
         animation: degrade 8s ease-in-out infinite;
     }
@@ -233,7 +233,7 @@ body {
     height: 35px;
     width: 100%;
     margin-top: -35px;
-    border-top: rgb(37, 37, 201) solid 1px;
+    border-top: #143D5E solid 1px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -247,10 +247,10 @@ body {
 
 /*----MOBILE----*/
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (max-width: 767px) {
     .secao-1 {
         width: 100%;
-        height: 87vh;
+        height: 85vh;
         display: flex;
         justify-content: flex-end;
         flex-direction: column;
@@ -274,9 +274,9 @@ body {
         font-family: 'Kalnia';
         color: white;
         font-weight: 500;
-        font-size: 35px;
+        font-size: 25px;
         text-align: center;
-        line-height: 40px;
+        line-height: 30px;
         position: relative;
         z-index: 1;
         will-change: transform, opacity, filter;
@@ -287,11 +287,11 @@ body {
         color: #A5AFC8;
         font-family: 'Montserrat', sans-serif;
         width: 98%;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 300;
         text-align: center;
-        line-height: 23px;
-        margin-top: 20px;
+        line-height: 20px;
+        margin-top: 10px;
         margin-bottom: 30px;
     }
 
@@ -310,9 +310,9 @@ body {
         gap: 10px;
         margin-bottom: 100px;
         background: linear-gradient(150deg,
-                #3737B3,
-                #000080,
-                #3737B3);
+                #DAA521,
+                #A77908,
+                #DAA521);
         background-size: 400% 400%;
         animation: degrade 8s ease-in-out infinite;
     }
@@ -370,9 +370,9 @@ body {
         font-family: 'Kalnia';
         color: white;
         font-weight: 500;
-        font-size: 30px;
+        font-size: 25pxx;
         text-align: center;
-        line-height: 35px;
+        line-height: 30px;
     }
 
     .itens {
@@ -389,7 +389,7 @@ body {
     .icon-box {
         width: 40px;
         height: 40px;
-        background-color: #1616A1;
+        background-color: #143D5E;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -399,10 +399,10 @@ body {
     .iten-list {
         width: 240px;
         height: 200px;
-        border: #1616A1 solid 1px;
+        border: #143D5E solid 1px;
         border-radius: 10px;
         padding: 20px 20px;
-        font-size: 18px;
+        font-size: 15px;
         color: #A5AFC8;
         font-family: 'Montserrat', sans-serif;
         display: flex;
@@ -412,7 +412,7 @@ body {
     }
 
     .iten-list:hover {
-        background-color: #1616A1;
+        background-color: #143D5E;
         transition: all 0.5s ease;
     }
 
@@ -432,9 +432,9 @@ body {
         border-radius: 50px;
         gap: 10px;
         background: linear-gradient(150deg,
-                #4141f1,
-                #1616A1,
-                #4141f1);
+                #DAA521,
+                #A77908,
+                #DAA521);
         background-size: 400% 400%;
         animation: degrade 8s ease-in-out infinite;
     }
@@ -460,7 +460,7 @@ body {
     height: 35px;
     width: 100%;
     margin-top: -35px;
-    border-top: rgb(37, 37, 201) solid 1px;
+    border-top: #143D5E solid 1px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -471,37 +471,6 @@ body {
 }
 }
 
-
-@media (min-width: 375px) and (max-width: 767px) {
-
-    /* FORÇA hardware acceleration para evitar bugs */
-    .botton {
-        transform: translateZ(0);
-        -webkit-transform: translateZ(0);
-        backface-visibility: hidden;
-        perspective: 1000px;
-    }
-
-    .botton.aberto {
-        z-index: 100;
-        /* Fica acima de tudo */
-        transform: translateZ(0) scale(1.01);
-    }
-
-    .pelicula-overlay {
-        position: absolute !important;
-        transform: translateZ(0);
-        -webkit-transform: translateZ(0);
-        will-change: opacity;
-    }
-
-    /* Suaviza fechamento no scroll */
-    .botton-extra {
-        transition: height 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-            opacity 0.3s ease,
-            transform 0.3s ease;
-    }
-}
 
 .blur {
     will-change: transform, opacity, filter;
