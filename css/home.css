@@ -37,7 +37,7 @@ body {
         height: 100vh;
         width: 100%;
         z-index: -1;
-        background-image: url(/images/secao-1.png);
+        background-image: url(/images/secao-1.webp);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -132,7 +132,7 @@ body {
         flex-direction: column;
         align-items: center;
         gap: 50px;
-        background-image: url(/images/secao-2-principal.png);
+        background-image: url(/images/secao-2-principal.webp);
         background-size: cover;
         padding: 810px 0px 80px 0px;
         margin-top: -810px;
@@ -261,15 +261,15 @@ body {
     }
 
     .botton:nth-child(1) .botton-bg {
-        background-image: url(/images/botton-1.png);
+        background-image: url(/images/botton-1.webp);
     }
 
     .botton:nth-child(2) .botton-bg {
-        background-image: url(/images/botton-2.png);
+        background-image: url(/images/botton-2.webp);
     }
 
     .botton:nth-child(3) .botton-bg {
-        background-image: url(/images/botton-3.png);
+        background-image: url(/images/botton-3.webp);
     }
 
 
@@ -323,7 +323,7 @@ body {
         height: 100vh;
         width: 100%;
         z-index: -1;
-        background-image: url(/images/secao-1.png);
+        background-image: url(/images/secao-1.webp);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -418,7 +418,7 @@ body {
         flex-direction: column;
         align-items: center;
         gap: 50px;
-        background-image: url(/images/secao-2-principal.png);
+        background-image: url(/images/secao-2-principal.webp);
         background-size: cover;
         padding: 810px 0px 80px 0px;
         margin-top: -810px;
@@ -547,15 +547,15 @@ body {
     }
 
     .botton:nth-child(1) .botton-bg {
-        background-image: url(/images/botton-1.png);
+        background-image: url(/images/botton-1.webp);
     }
 
     .botton:nth-child(2) .botton-bg {
-        background-image: url(/images/botton-2.png);
+        background-image: url(/images/botton-2.webp);
     }
 
     .botton:nth-child(3) .botton-bg {
-        background-image: url(/images/botton-3.png);
+        background-image: url(/images/botton-3.webp);
     }
 
 
@@ -613,7 +613,7 @@ body {
         height: 90vh;
         width: 100%;
         z-index: -1;
-        background-image: url(/images/secao-1.png);
+        background-image: url(/images/secao-1.webp);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -709,7 +709,7 @@ body {
         flex-direction: column;
         align-items: center;
         gap: 20px;
-        background-image: url(/images/secao-2-principal.png);
+        background-image: url(/images/secao-2-principal.webp);
         background-size: cover;
         padding: 810px 20px 80px 20px;
         margin-top: -850px;
@@ -838,15 +838,15 @@ body {
     }
 
     .botton:nth-child(1) .botton-bg {
-        background-image: url(/images/botton-1-m.png);
+        background-image: url(/images/botton-1-m.webp);
     }
 
     .botton:nth-child(2) .botton-bg {
-        background-image: url(/images/botton-2-m.png);
+        background-image: url(/images/botton-2-m.webp);
     }
 
     .botton:nth-child(3) .botton-bg {
-        background-image: url(/images/botton-3-m.png);
+        background-image: url(/images/botton-3-m.webp);
     }
 
     .titulo-botton {
